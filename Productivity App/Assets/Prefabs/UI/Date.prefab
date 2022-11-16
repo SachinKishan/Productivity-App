@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 2133213595305037039}
   - component: {fileID: 2133213595305037038}
   - component: {fileID: 2133213595305037036}
+  - component: {fileID: 7927159593604124417}
   m_Layer: 5
   m_Name: Date
   m_TagString: Untagged
@@ -372,3 +373,17 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &7927159593604124417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133213595305037032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7033a88708ca774faa3f708c806dedd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  day: {fileID: 2133213593410180919}
+  dayName: {fileID: 2133213593742686654}
