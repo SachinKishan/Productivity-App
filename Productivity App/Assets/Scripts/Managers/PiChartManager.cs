@@ -21,7 +21,7 @@ public class PiChartManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SetValue(values);
     }
 
     // Update is called once per frame
@@ -53,6 +53,7 @@ public class PiChartManager : MonoBehaviour
         {
             totalAmount += valueToSet[i];
         }
+        Debug.Log(valueToSet[index]/totalAmount);
         return valueToSet[index]/totalAmount;
     }
 }

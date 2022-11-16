@@ -23,6 +23,7 @@ public class CalendarManager : MonoBehaviour
         { 5, "Fri" },
         { 6, "Sat" },
     };
+    
     [SerializeField] private GameObject calendar;
     [SerializeField] private GameObject date;
     [SerializeField] private TMP_Text month;
@@ -31,6 +32,7 @@ public class CalendarManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        calendar.transform.localPosition=Vector3.zero;
 DisplayCalendar();    }
 
     // Update is called once per frame
